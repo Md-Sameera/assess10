@@ -30,7 +30,9 @@ console.log(head);
 
 //Q5.Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.
 
-document.getElementById("flex").style.flexDirection="column";
+function Submit(){
+    document.getElementById("flex").style.flexDirection="column-reverse";
+}
 
 //Q6.Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions":-
 
